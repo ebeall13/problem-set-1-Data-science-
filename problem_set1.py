@@ -43,11 +43,8 @@ def fruit_pricing():
             print(fruit)
     total = 0
     total = total + (3 *(fruits.get("apple")))
-    print(total)
     total = total + (2 * (fruits.get("banana")))
-    print(total)
     total = total + fruits.get("coconut")
-    print(total)
     print("The total cost the of the shopping trip is $", total)
 if __name__ == '__main__':
     main()
